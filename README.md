@@ -23,7 +23,7 @@ The goal is to support data-driven decision making for HR teams and recruitment 
 *Seaborn	  -      Advanced visualizations
 *Jupyter Notebook - Interactive execution
 
-# 📁 Dataset Information
+# Dataset Information
 
 The dataset (aug_train.csv) contains:
 
@@ -46,10 +46,36 @@ target                  -	0 = does not want to change job, 1 = wants to change j
 Most candidates in the dataset are actively looking for a job change.
  2. Experience vs Job Change
 Candidates with 0–2 years of experience are more likely to change jobs.
+
  Insight: Freshers and early-career professionals switch frequently to grow skill and salary.
- 3. Training Hours
+ 4. Training Hours
 Job changers have higher training hours compared to those who are stable.
+
  Insight: People invest time in learning before switching to improve opportunities.
- 4. Company Size
+ 5. Company Size
 Employees from small companies show higher job-switch intention.
- Insight: Stability and growth opportunities may be higher in large companies.  
+
+ Insight: Stability and growth opportunities may be higher in large companies.
+
+# Conclusion
+
+*Training programs and experience level strongly influence job change decisions.
+*Employees with low experience tend to switch more often.
+*Small company employees have higher turnover tendencies.
+*This analysis can help HR teams create targeted retention & hiring strategies.
+
+# Highlights 
+*Data Cleaning & Preprocessing using pandas.
+*Visualizations using matplotlib & seaborn.
+*Comparative analysis of job-change behavior.
+*Insight generation for decision-making.
+
+# Output
+Includes multiple charts:
+*Countplots
+*Bar graphs
+*Correlation heatmap
+
+# Outcome
+This project demonstrates how data visualization can convert raw data into meaningful insights and help organizations make better decisions.
+ 
